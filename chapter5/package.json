@@ -16,7 +16,8 @@
     "karma-chai": "0.1.0",
     "karma-chrome-launcher": "0.1.4",
     "karma-mocha": "0.1.4",
-    "shelljs": "^0.3.0"
+    "shelljs": "^0.3.0",
+    "chai": "^3.4.1"
   },
   "cordovaPlugins": [
     "cordova-plugin-device",
