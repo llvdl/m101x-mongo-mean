@@ -8,6 +8,9 @@
     "karma-chrome-launcher": "0.1.4",
     "karma-mocha": "0.1.4",
     "http-status": "0.1.8",
-    "underscore": "1.5.2"
+    "underscore": "1.5.2",
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "browserify": "^2.3.0"
   }
 }
