@@ -7,10 +7,14 @@ TODO: this HTML should expose a search bar
     <!--
     TODO: input field here
     !-->
+    <input type="text" ng-model="searchText" ng-change="update()" class="search-bar-input"/>
   </div>
   <div class="autocomplete-results" ng-show="results.length > 0">
     <!--
     TODO: ngRepeat over results here
     !-->
+    <div ng-repeat="result in results">
+      <div class="autocomplete-result">{{result.name}}</div>
+    </div>
   </div>
 </div>
